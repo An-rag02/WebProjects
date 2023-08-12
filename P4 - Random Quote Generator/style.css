@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom left, lightgreen, cyan);
+}
+
+.container{
+    width: 90%;
+    margin: 10px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+    padding: 30px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.quote{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.author{
+    font-size: 25px;
+    margin: 10px;
+    font-style: italic;
+}
+
+.btn{
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    width: 300px;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.9);
+    box-shadow: o 4px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+    color: green;
+}
